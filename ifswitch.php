@@ -125,61 +125,61 @@ echo "<br>this is test2";
 switch ($test) 
 {
 case "test":
- echo "<br>this is a test";
-  break;
-  case "test2":
-   echo "<br>this is test 2";
-    break;
-    }
+echo "<br>this is a test";
+break;
+case "test2":
+echo "<br>this is test 2";
+break;
+}
 
-    echo "<br><br>switch isset<br>";
-    $word = "isset";
-    if (isset($word))
-    {
-    echo "<br>" . $word;
-    }
+echo "<br><br>switch isset<br>";
+$word = "isset";
+if (isset($word))
+{
+echo "<br>" . $word;
+}
 
-    switch ($word) 
-    {
-    case "hi":
-     echo "<br>" . $word;
-     break;
-     case "hello":
-      echo "<br>" . $word;
-      break;
+switch ($word) 
+{
+case "hi":
+echo "<br>" . $word;
+break;
+case "hello":
+echo "<br>" . $word;
+break;
 
               
-	      }
+}
 
 
-	      echo "<br><br>switch empty<br>";
-	      $words="";
-	      if (empty($words));
+echo "<br><br>switch empty<br>";
+$words="";
+if (empty($words));
 	      		
-			switch ($word) 
-			{
-			case "hi":
-			 echo "<br>hi!";
-			 break;
-			 case "":
-			  echo "<br>you didnt say anything";
-			  break;
-			  }
+switch ($word) 
+{
+case "hi":
+echo "<br>hi!";
+ break;
+case "":
+echo "<br>you didnt say anything";
+break;
+}
 
-			  echo "<br><br>switch null<br>";
+echo "<br><br>switch null<br>";
 
-			  $i;
-			  if (is_null($i))
-			  {
-			  $i= 1;
-			  }
-			  switch ($i)
-			  {
-			  case 1:
-			  echo "'i' was NULL, and now it's-> ". $i;
-			  break;
-			  }
+ $i;
+if (is_null($i))
+{
+$i= 1;
+ }
+switch ($i)
+{
+case 1:
+echo "'i' was NULL, and now it's-> ". $i;
+break;
+}
 
-			  ?>
+?>
 
 
